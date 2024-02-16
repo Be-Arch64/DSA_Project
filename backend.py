@@ -1,6 +1,6 @@
 import requests
-from api_key import api_key
-api_key = api_key()
+from api_key import api_key #Remove this line
+api_key = api_key() # Replace the function with your openweather api key
 
 
 def get_data(place, days=None, selection=None):
